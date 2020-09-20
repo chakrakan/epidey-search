@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/chakrakan/epidey/">
-    <img src="https://github.com/chakrakan/epidey-search/blob/main/docs/epidey-logo.png" alt="Logo" width="350" height="200">
+    <img src="https://github.com/chakrakan/epidey-search/blob/master/docs/epidey-logo.png" alt="Logo" width="350" height="200">
   </a>
 
 
