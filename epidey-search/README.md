@@ -1,39 +1,21 @@
-<<<<<<< HEAD
-# Lyrics Live Search: Understanding the Concept of Chunk
-=======
-
 # Epidey Live Search: Relevant research-articles at your fingertips
->>>>>>> 71ee6d8801092f6fd5a7c0ceb63cac6ed6a295f6
+
 
 [![Jina](https://github.com/jina-ai/jina/blob/master/.github/badges/jina-badge.svg?raw=true "We fully commit to open-source")](https://get.jina.ai)
 
-<<<<<<< HEAD
 [![](epidey-demo.gif)]()
-=======
-[![](demo.gif)](https://github.com/chakrakan/epidey-search/)
->>>>>>> 71ee6d8801092f6fd5a7c0ceb63cac6ed6a295f6
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 **Table of Contents**
 
-<<<<<<< HEAD
-- [Lyrics Live Search: Understanding the Concept of Chunk](#lyrics-live-search-understanding-the-concept-of-chunk)
-  - [Use toy data](#use-toy-data)
-  - [[Optional] Download full lyrics dataset](#optional-download-full-lyrics-dataset)
-  - [Install](#install)
-  - [Run](#run)
-  - [Run as a Docker Container](#run-as-a-docker-container)
-  - [License](#license)
-=======
 - [Use toy data](#use-toy-data)
 - Download full research abstract dataset
 - [Install](#install)
 - [Run](#run)
 - [View in Browser](#view-in-browser)
 - [License](#license)
->>>>>>> 71ee6d8801092f6fd5a7c0ceb63cac6ed6a295f6
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
