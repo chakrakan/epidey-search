@@ -15,7 +15,11 @@
 
 ### Who am I? What is this?
 
-👋	Hi I am Kanisk, a software engineering student from Canada! This prototype was built to demonstrate the concept of sentiment based search for the [Jina AI 2020 Virtual Hackathon](https://jinaxhackathon.ai/). It ended up winning Bronze award out of 700+ participants! 🥳
+👋	Hi I am Kanisk, a software engineering student from Canada!  
+
+This prototype was built to demonstrate the concept of sentiment based search for the [Jina AI 2020 Virtual Hackathon](https://jinaxhackathon.ai/). It ended up winning Bronze award out of 700+ participants! 🥳
+
+The name Epidey is an amalgamation of the word epidemiology & spidey (a reference to spider web crawlers + an Avenger). 
 
 ### The Problem
 
