@@ -1,0 +1,11 @@
+!SentimentAnalyzer
+with: {}
+metas:
+  name: sentiment
+  py_modules: sentiment.py
+requests:
+  on:
+    [SearchRequest, IndexRequest]:
+      - !CraftDriver
+        with:
+          method: craft

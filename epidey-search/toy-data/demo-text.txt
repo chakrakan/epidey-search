@@ -1,0 +1,2 @@
+COMET is a single-pass MapReduce algorithm for learning on large-scale data. This approach is appropriate when learning
+ from massive-scale data that is too large to fit on a single machine.

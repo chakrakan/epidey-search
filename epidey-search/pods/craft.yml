@@ -1,0 +1,5 @@
+!Sentencizer
+with:
+  min_sent_length: 5
+
+
