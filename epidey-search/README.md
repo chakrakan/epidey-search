@@ -1,14 +1,24 @@
+<<<<<<< HEAD
 # Lyrics Live Search: Understanding the Concept of Chunk
+=======
+
+# Epidey Live Search: Relevant research-articles at your fingertips
+>>>>>>> 71ee6d8801092f6fd5a7c0ceb63cac6ed6a295f6
 
 [![Jina](https://github.com/jina-ai/jina/blob/master/.github/badges/jina-badge.svg?raw=true "We fully commit to open-source")](https://get.jina.ai)
 
+<<<<<<< HEAD
 [![](epidey-demo.gif)]()
+=======
+[![](demo.gif)](https://github.com/chakrakan/epidey-search/)
+>>>>>>> 71ee6d8801092f6fd5a7c0ceb63cac6ed6a295f6
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 **Table of Contents**
 
+<<<<<<< HEAD
 - [Lyrics Live Search: Understanding the Concept of Chunk](#lyrics-live-search-understanding-the-concept-of-chunk)
   - [Use toy data](#use-toy-data)
   - [[Optional] Download full lyrics dataset](#optional-download-full-lyrics-dataset)
@@ -16,26 +26,48 @@
   - [Run](#run)
   - [Run as a Docker Container](#run-as-a-docker-container)
   - [License](#license)
+=======
+- [Use toy data](#use-toy-data)
+- Download full research abstract dataset
+- [Install](#install)
+- [Run](#run)
+- [View in Browser](#view-in-browser)
+- [License](#license)
+>>>>>>> 71ee6d8801092f6fd5a7c0ceb63cac6ed6a295f6
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Use toy data
 
-We have included 1000 lyrics as toy data in [`toy-data`](toy-data).
-This data is ready to use with this example.
+As the project was built upon the multisearch-lyrics example provided by Jina, the example can be run on the toy-data initially provided by them. 
+This data is ready to use with this example by simply switching to `input_fn` within your `index` function.
 
-## [Optional] Download full lyrics dataset
+```python
+# for index
+def index():
+    """ Please switch the input function for whichever data-set you want to test for """
+    f = Flow.load_config('flows/index.yml')
 
-If you want to use the full dataset, you can download it from kaggle (https://www.kaggle.com/hsankesara/flickr-image-dataset).
-To get it, once you have your Kaggle Token in your system as described in (https://www.kaggle.com/docs/api), run:
+    with f:
+        f.index(input_fn, batch_size=8) # the input_fn refers to lyrics toy-data ingestion
+```
 
-```bash
-pip install kaggle
-mkdir data
-kaggle datasets download -d neisse/scrapped-lyrics-from-6-genres
-unzip scrapped-lyrics-from-6-genres.zip
-mv lyrics-data data
-export JINA_DATA_PATH=data/lyrics-data.csv
+## Download full research dataset
+
+If you want to use the an actual research dataset which is what the project is meant to be based on, you can download it from kaggle (https://www.kaggle.com/nikhilmittal/research-paper-abstracts).
+
+1. Download the `archive.zip` file
+2. Unzip and copy the `data_input.csv` to the `toy-data` folder
+3. Switch to `input_fn_research` within your `index` function:
+
+```python
+# for index
+def index():
+    """ Please switch the input function for whichever data-set you want to test for """
+    f = Flow.load_config('flows/index.yml')
+
+    with f:
+        f.index(input_fn_research, batch_size=8) # the input_fn_research refers to research toy-data ingestion
 ```
 
 ## Install
