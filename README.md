@@ -54,6 +54,14 @@ I thank Jina for the wonderful opportunity to let me explore the world of ML and
 
 Thanks!
 
+#### Future Considerations
+
+I stumbled upon word2vec + node2vec and one can see some of the resources I utilized to think of the idea and direction. In word2vec, words are linked together by a logical path with vector-based reasoning (vector offset) – e.g King – Man = Royalty, Royalty + Woman = Queen
+
+Therefore, King – Man + Woman = Queen.
+
+While there is a lot more reading to be done to uncover the best possible approach for the next steps, the general idea would be to employ graph based visual representation or search results using k-means clustering for the data (in this case, research papers) which can form clusters with regards to each other and the query performed by the user, by forming tighter edges to other papers based on similar opinions, topics, or if they were cited in another paper or not, and so on and so forth. This should further remove the bias that is normally faced when searching for papers somewhere akin to pubmed – which continuously shows keyword-based searches that might make the clinician miss certain relevant articles.
+
 ### Some more screenshots
 
 ![](https://github.com/chakrakan/epidey-search/blob/master/docs/sc1.png)  
