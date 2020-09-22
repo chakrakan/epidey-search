@@ -24,14 +24,15 @@ The name Epidey is an amalgamation of the word epidemiology & spidey (a referenc
 ### The Problem
 
 -	In today’s world, there is information overload, not just in the realms of the internet, but in the field of research
--	Given we are currently in a pandemic, I decided to focus specifically within the domains of health-based research
--	There are many research labs and researchers who come up with creative ways to treat complex diseases such as cancers, dementias (Alzheimers, Parkinson's, etc.), and even Mental health issues. Results from these labs are opinions based upon genetics and environmental factors. It is inevitable there is overlap in the research. 
+-	Given we are currently in a pandemic, I decided to focus specifically within the domains of health-based research, but the solution can be applicable to any field
+-	There are many research labs and researchers who come up with creative ways to treat complex diseases and mental health issues. Results from these labs are opinions based upon genetics and environmental factors. It is inevitable there is overlap in the research. 
 -	But, it also makes it impossible for any one clinician to be up-to-date on all these opinions. Finding the most effective initial treatment option as well as planning treatment is a monumental task which involves scouring through numerous research papers with trial and error, but is critical to improve patient outcome.
--	According to a study by Velo and Minuz, 2009 – Inadequate knowledge of competence and incomplete info about clinical characteristics result in prescribing faults, including the use of potentially inappropriate medications
+-	It is a well known fact, and has been proven by many studies that inadequate knowledge and incomplete info about clinical characteristics result in prescribing faults, including the use of potentially inappropriate medications for patients.
 
 ### The Solution
 
 -	This process of finding the most relevant research papers or resources can be automated using Jina to enable healthcare practitioners the ability to provide the best patient care.
+- Like always, this ability to find the most relevant papers can be extended to any field necessary. 
 
 #### Introducing Epidey
 
