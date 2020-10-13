@@ -1,2 +1,2 @@
 nltk
-jina[devel,torch,transformers]==0.6.6
+jina[devel,torch,transformers]==0.6.7
